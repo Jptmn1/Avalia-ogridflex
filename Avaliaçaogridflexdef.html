@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="widht=device-width, initial scale=1.0">
+<meta name="author" content="João">
+<link rel="shortcut icon" href="https://lh3.googleusercontent.com/Oe8ROhhbfqNoSLVuPZdQf6wDVRLPDKcDEm95h_R99nBQ9szNefIw3Xzgj90rHbAUz3oNfA=s32">
+
+<title>Avaliação 1</title>
+
+<style>
+
+.body{justify-content: center;
+justify-items: center;}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.button{background-color: hsl(71, 73%, 54%);
+width: 4cm;
+height: 1cm;
+color: azure;
+margin-left: 1cm;}
+
+.deskbox{display: grid;
+grid-template-columns: 9cm 8cm 10cm 1cm;
+grid-template-rows: 2cm 6cm 6cm 2cm ;
+text-align: left;
+font-family: 'Karla', sans-serif; }
+
+.md{grid-column: 2/4;
+grid-row: 2/3;
+background-color: antiquewhite;
+color: darkgrey;
+padding-left: 1cm; 
+padding-top: 20px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+box-shadow: 10px 3px 2px rgb(77, 75, 75);}
+
+.ed{grid-column: 2/2;
+grid-row: 3/3;
+background-color: hsl(218, 22%, 67%);
+width: 100%;
+color: azure;
+padding-left: 1cm; 
+border-bottom-left-radius: 20px;
+box-shadow: 10px 3px 2px rgb(77, 75, 75);}
+
+.dd{background-color:  hsl(179, 62%, 43%);
+grid-column: 3/3;
+grid-row: 3/3;
+color: azure;
+padding-left: 1cm; 
+border-bottom-right-radius: 20px;
+box-shadow: 10px 3px 2px rgb(77, 75, 75);}
+
+.h3{color: hsl(179, 62%, 43%)}
+
+.h5{color: hsl(71, 73%, 54%)}
+
+.md:hover{background-color: blue;}
+
+
+@media screen and (max-width:600px){
+  
+    .body{display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;}
+
+    .deskbox{display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 375px;
+    al
+    margin-left: 10cm;
+    height: auto;}
+
+    .md{align-self: center;
+    height: 250px;
+    align-items: center;
+    padding-left: 1cm;
+    padding-top: 20px;}
+
+    .ed{align-self: center;
+    height: 200px;
+    align-items: center;
+    padding-left: 1cm;
+    width:90%;
+    border-bottom-left-radius: 0px;}
+
+    .dd{height: 200px;
+    align-self: center;
+    padding-left: 1cm;
+    border-bottom-left-radius: 20px;}
+  
+    .button{background-color: hsl(71, 73%, 54%);
+    width: 4cm;
+    height: 1cm;
+    color: azure;
+    margin-left: 2cm;}
+
+    .md:hover{background-color: rgb(72, 45, 116);}}
+
+</style>
+</head>
+
+<body>
+
+<section class="deskbox">
+
+<div class="md"><h3 class="h3">Junte-se a nossa comunidade.</h3>
+<h5 class="h5">Garantia de devolução do dinheiro em 30 dias no caso de não gostar.</h5>
+Ganhe acesso completo a nossa biblioteca de tutoriais e códigos revisados por experts. Perfeito para qualquer desenvolvedor disposto a melhorar e aumentar suas habilidades.</div>
+
+<div class="ed">
+<h4>Inscrição mensal</h4>
+<h4>$29 Por mês.</h4>
+<i>Acesso completo por menos<br> de 1$ por dia.</i><br><br>
+<button class="button"><b>Inscreva-se</b></button>
+    
+</div>
+<div class="dd">
+<h4>Porque nós?</h4>
+Tutoriais por experts da indústria, além de revisões dos códigos de exercício por especialistas. Acesso ao nosso repositório do Github.Acesso ao fórum da comunidade, mapas mentais e a todos os novos videos semanais.
+
+</div>
+
+</section>
+
+</body>
